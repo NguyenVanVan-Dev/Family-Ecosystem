@@ -61,7 +61,7 @@
                         <td>{{$product->product_display}}</td>
                     
                         <td>{{$product->product_price}} VND</td>
-                        <td><img src="{{URL::TO('/public/uploads/product/'.$product->product_image)}}" alt="" height="100" width="100"></td>
+                        <td><img src="{{URL::TO('/uploads/product/'.$product->product_image)}}" alt="" height="100" width="100"></td>
                         <td>
                             <span class="text-ellipsis">
                                 <?php

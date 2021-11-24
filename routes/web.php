@@ -26,9 +26,10 @@ Route::get('/home',[HomeController::class,'index']);
 
 //Admin
 Route::get('/admin',[AdminController::class,'index']);
-Route::get('/Quan-Li',[AdminController::class,'GiaoDienAdmin']);
-Route::get('/DangXuat',[AdminController::class,'logout']);
 Route::post('/login-admin',[AdminController::class,'DangNhapAdmin']);
+Route::get('/Quan-Li',[AdminController::class,'GiaoDienAdmin']);
+// Quản lí dự án tới đậy rồi nè theo Jira thì mới thể hiện được tới đây 23/11/2021
+Route::get('/DangXuat',[AdminController::class,'logout']);
 Route::get('/Them-NhanVien',[AdminController::class,'Them_NhanVien']);
 Route::post('/Luu-NhanVien',[AdminController::class,'Luu_NhanVien']);
 Route::get('/LietKe-NhanSu',[AdminController::class,'LietKe_NhanSu']);

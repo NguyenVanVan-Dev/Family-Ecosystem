@@ -23,16 +23,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		}
 	</script>
 	<!--//tags -->
-	<link href="{{asset('public/frontend/css/bootstrap.css')}}" rel="stylesheet" type="text/css" media="all" />
+	<link href="{{asset('frontend/css/bootstrap.css')}}" rel="stylesheet" type="text/css" media="all" />
 
-	<link href="{{asset('public/frontend/css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
+	<link href="{{asset('frontend/css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
 	
-	<link href="{{asset('public/frontend/css/font-awesome.css')}}" rel="stylesheet">
+	<link href="{{asset('frontend/css/font-awesome.css')}}" rel="stylesheet">
 	<!--pop-up-box-->
-	<link href="{{asset('public/frontend/css/popuo-box.css')}}" rel="stylesheet" type="text/css" media="all" />
+	<link href="{{asset('frontend/css/popuo-box.css')}}" rel="stylesheet" type="text/css" media="all" />
 	<!--//pop-up-box-->
 	<!-- price range -->
-	<link rel="stylesheet" type="text/css" href="{{asset('public/frontend/css/jquery-ui1.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset('frontend/css/jquery-ui1.css')}}">
 	<!-- fonts -->
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
 </head>
@@ -47,11 +47,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 	<!-- js-files -->
 	<!-- jquery -->
-	<script src="{{asset('public/frontend/js/jquery-2.1.4.min.js')}}"></script>
+	<script src="{{asset('frontend/js/jquery-2.1.4.min.js')}}"></script>
 	<!-- //jquery -->
 
 	<!-- popup modal (for signin & signup)-->
-	<script src="{{asset('public/frontend/js/jquery.magnific-popup.js')}}"></script>
+	<script src="{{asset('frontend/js/jquery.magnific-popup.js')}}"></script>
 	<script>
 		$(document).ready(function () {
 			$('.popup-with-zoom-anim').magnificPopup({
@@ -75,11 +75,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //popup modal (for signin & signup)-->
 
 	<!-- cart-js -->
-	<script src="{{asset('public/frontend/js/minicart.js')}}"></script>
+	<script src="{{asset('frontend/js/minicart.js')}}"></script>
 	
 		
 	<!-- price range (top products) -->
-	<script src="{{asset('public/frontend/js/jquery-ui.js')}}"></script>
+	<script src="{{asset('frontend/js/jquery-ui.js')}}"></script>
 	<script>
 		//<![CDATA[ 
 		$(window).load(function () {
@@ -99,7 +99,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //price range (top products) -->
 
 	<!-- flexisel (for special offers) -->
-	<script src="{{asset('public/frontend/js/jquery.flexisel.js')}}"></script>
+	<script src="{{asset('frontend/js/jquery.flexisel.js')}}"></script>
 	<script>
 		$(window).load(function () {
 			$("#flexiselDemo1").flexisel({
@@ -149,12 +149,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //password-script -->
 
 	<!-- smoothscroll -->
-	<script src="{{asset('public/frontend/js/SmoothScroll.min.js')}}"></script>
+	<script src="{{asset('frontend/js/SmoothScroll.min.js')}}"></script>
 	<!-- //smoothscroll -->
 
 	<!-- start-smooth-scrolling -->
-	<script src="{{asset('public/frontend/js/move-top.js')}}"></script>
-	<script src="{{asset('public/frontend/js/easing.js')}}"></script>
+	<script src="{{asset('frontend/js/move-top.js')}}"></script>
+	<script src="{{asset('frontend/js/easing.js')}}"></script>
 	<script>
 		jQuery(document).ready(function ($) {
 			$(".scroll").click(function (event) {
@@ -188,7 +188,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //smooth-scrolling-of-move-up -->
 
 	<!-- for bootstrap working -->
-	<script src="{{asset('public/frontend/js/bootstrap.js')}}"></script>
+	<script src="{{asset('frontend/js/bootstrap.js')}}"></script>
 	<!-- //for bootstrap working -->
 	<!-- //js-files -->
 

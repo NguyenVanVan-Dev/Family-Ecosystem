@@ -61,7 +61,7 @@
 							</p>
 						</div>
 						<div class="col-xs-5 contact-agile">
-							<img src="{{URL::TO('public/frontend/images/lienhe.png')}}" alt="">
+							<img src="{{URL::TO('frontend/images/lienhe.png')}}" alt="">
 						</div>
 						<div class="clearfix"> </div>
 					</div>

@@ -12,7 +12,7 @@
 					<a href="index.html">
 						<span>F</span>amily
 						<span>E</span>cosystem
-						<img src="{{URL::TO('public/frontend/images/logo2.png')}}" alt=" ">
+						<img src="{{URL::TO('frontend/images/logo2.png')}}" alt=" ">
 					</a>
 				</h1>
 			</div>

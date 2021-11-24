@@ -16,9 +16,9 @@
 				<div class="grid images_3_of_2">
 					<div class="flexslider">
 						<ul class="slides">
-							<li data-thumb="{{URL::to('public/uploads/product/'.$details->product_image)}}">
+							<li data-thumb="{{URL::to('uploads/product/'.$details->product_image)}}">
 								<div class="thumb-image">
-									<img src="{{URL::to('public/uploads/product/'.$details->product_image)}}" data-imagezoom="true" class="img-responsive" alt=""> </div>
+									<img src="{{URL::to('uploads/product/'.$details->product_image)}}" data-imagezoom="true" class="img-responsive" alt=""> </div>
 							</li>
 							<li data-thumb="images/si2.jpg">
 								<div class="thumb-image">
@@ -119,7 +119,7 @@
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
 								<a href="single.html">
-									<img src="{{URL::to('public/uploads/product/'.$val->product_image)}}" alt="" width="160" height="150">
+									<img src="{{URL::to('uploads/product/'.$val->product_image)}}" alt="" width="160" height="150">
 								</a>
 							</div>
 							<div class="product-name-w3l">

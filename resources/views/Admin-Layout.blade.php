@@ -12,15 +12,15 @@
     <title>Quản Lí | Admin</title>
 
     <!-- Custom fonts for this template-->
-    <link href="{{asset('public/backend/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{asset('backend/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
     
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="{{asset('public/backend/css/sb-admin-2.min.css')}}" rel="stylesheet">
-    <link  href="{{asset('public/backend/css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('backend/css/sb-admin-2.min.css')}}" rel="stylesheet">
+    <link  href="{{asset('backend/css/style.css')}}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
@@ -182,7 +182,7 @@
 
             <!-- Sidebar Message -->
             <div class="sidebar-card">
-                <img class="sidebar-card-illustration mb-2" src="{{URL::TO('public/backend/img/avatar.jpg')}}" alt="">
+                <img class="sidebar-card-illustration mb-2" src="{{URL::TO('backend/img/avatar.jpg')}}" alt="">
                 <p class="text-center mb-2"><strong>Chủ Sở Hữu Vấn Nguyễn và Đoàn Vương</strong> Thiết kế vf sáng lập</p>
                 <a class="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">FaceBook Admin</a>
             </div>
@@ -266,7 +266,7 @@
                                      }
                                 ?>
                                 </span>
-                                <img class="img-profile rounded-circle" src="{{URL::TO('public/uploads/manage/'.$avatar)}}">
+                                <img class="img-profile rounded-circle" src="{{URL::TO('uploads/manage/'.$avatar)}}">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -368,7 +368,7 @@
         </div>
     </div>
     <!-- CKeditor -->
-    <script src="{{asset('public/backend/ckeditor/ckeditor.js')}}"></script>
+    <script src="{{asset('backend/ckeditor/ckeditor.js')}}"></script>
     <script>
             CKEDITOR.replace( 'editor1' );
             CKEDITOR.replace( 'editor2' );
@@ -379,21 +379,21 @@
 
     <!-- //Ckeditor -->
     <!-- Bootstrap core JavaScript-->
-    <script src="{{asset('public/backend/vendor/jquery/jquery.min.js')}}"></script>
-    <script src="{{asset('public/backend/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{asset('backend/vendor/jquery/jquery.min.js')}}"></script>
+    <script src="{{asset('backend/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src="{{asset('public/backend/vendor/jquery-easing/jquery.easing.min.js')}}"></script>
+    <script src="{{asset('backend/vendor/jquery-easing/jquery.easing.min.js')}}"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="{{asset('public/backend/js/sb-admin-2.min.js')}}"></script>
+    <script src="{{asset('backend/js/sb-admin-2.min.js')}}"></script>
 
     <!-- Page level plugins -->
-    <script src="{{asset('public/backend/vendor/chart.js/Chart.min.js')}}"></script>
+    <script src="{{asset('backend/vendor/chart.js/Chart.min.js')}}"></script>
 
     <!-- Page level custom scripts -->
-    <script src="{{asset('public/backend/js/demo/chart-area-demo.js')}}"></script>
-    <script src="{{asset('public/backend/js/demo/chart-pie-demo.js')}}"></script>
+    <script src="{{asset('backend/js/demo/chart-area-demo.js')}}"></script>
+    <script src="{{asset('backend/js/demo/chart-pie-demo.js')}}"></script>
 
 </body>
 

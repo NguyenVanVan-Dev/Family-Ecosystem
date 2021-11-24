@@ -33,7 +33,7 @@
 					<div class="contact-form wthree">
                   <div class="header__user">
                      <div class="header__avatar">
-                        <img src="{{URL::TO('public/frontend/images/lienhe.png')}}" alt="" width="150px" height="150px">
+                        <img src="{{URL::TO('frontend/images/lienhe.png')}}" alt="" width="150px" height="150px">
                         <div class="header__name">
                               <p>
 									{{$name->customer_name}}
@@ -118,7 +118,7 @@
 												
 											</div>
 											<div>
-												<img src="{{URL::TO('public/frontend/images/lienhe.png')}}" alt="" width="150px" height="150px">
+												<img src="{{URL::TO('frontend/images/lienhe.png')}}" alt="" width="150px" height="150px">
 											</div>
 										</div>
 									</div>

@@ -17,7 +17,7 @@
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
 								<a href="single.html">
-								<img src="{{URL::to('public/uploads/product/'.$datbiet_ex->product_image)}}" alt="" width="260" height="200" />
+								<img src="{{URL::to('uploads/product/'.$datbiet_ex->product_image)}}" alt="" width="260" height="200" />
 								</a>
 							</div>
 							<div class="product-name-w3l">

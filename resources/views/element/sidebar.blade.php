@@ -120,7 +120,7 @@
 					@foreach($noibat as $key=>$val)
 					<div class="special-sec1">
 						<div class="col-xs-4 img-deals pt-2">
-						   <img src="{{URL::to('public/uploads/product/'.$val->product_image)}}" alt="" width="60" height="50" />
+						   <img src="{{URL::to('uploads/product/'.$val->product_image)}}" alt="" width="60" height="50" />
 						</div>
 						<div class="col-xs-8 img-deal1">
 							<h3>{{$val->product_name}}</h3>

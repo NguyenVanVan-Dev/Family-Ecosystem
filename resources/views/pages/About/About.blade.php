@@ -30,12 +30,12 @@
 			<div class="w3l-welcome-info">
 				<div class="col-sm-6 col-xs-6 welcome-grids">
 					<div class="welcome-img">
-						<img src="{{URL::TO('public/frontend/images/vuonhoa4.jpg')}}" class="img-responsive zoom-img" alt="">
+						<img src="{{URL::TO('frontend/images/vuonhoa4.jpg')}}" class="img-responsive zoom-img" alt="">
 					</div>
 				</div>
 				<div class="col-sm-6 col-xs-6 welcome-grids">
 					<div class="welcome-img">
-						<img src="{{URL::TO('public/frontend/images/vuonhoa5.jpg')}}" class="img-responsive zoom-img" alt="">
+						<img src="{{URL::TO('frontend/images/vuonhoa5.jpg')}}" class="img-responsive zoom-img" alt="">
 					</div>
 				</div>
 				<div class="clearfix"> </div>

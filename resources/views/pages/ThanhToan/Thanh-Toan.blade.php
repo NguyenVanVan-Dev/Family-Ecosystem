@@ -72,7 +72,7 @@
 						@foreach($content as $v_content)
 							<tr class="rem1">
 								<td class="invert-image">
-								<a href=""><img src="{{URL::to('public/uploads/product/'.$v_content->options->image)}}" width="90" alt="" /></a>
+								<a href=""><img src="{{URL::to('uploads/product/'.$v_content->options->image)}}" width="90" alt="" /></a>
 								</td>
 								<td class="invert">
 									<div class="quantity">

@@ -10,9 +10,9 @@
                         <button type="button" class="toggle-btn" onclick="register()">Đăng Kí</button>
                     </div>
                      <div class="social-icons">
-                        <img src="{{URL::TO('/public/frontend/images/zalo1.jpg')}}" alt="">
-                        <img src="{{URL::TO('/public/frontend/images/zalo1.jpg')}}" alt="">
-                        <img src="{{URL::TO('/public/frontend/images/zalo1.jpg')}}" alt="">                        
+                        <img src="{{URL::TO('/frontend/images/zalo1.jpg')}}" alt="">
+                        <img src="{{URL::TO('/frontend/images/zalo1.jpg')}}" alt="">
+                        <img src="{{URL::TO('/frontend/images/zalo1.jpg')}}" alt="">                        
                     </div>
                     <h4> 
                             <?php

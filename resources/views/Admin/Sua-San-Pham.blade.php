@@ -52,7 +52,7 @@
                                     <div class="form-group col-md-6">
                                         <label for="exampleInputEmail3">Hình ảnh sản phẩm</label>
                                         <input type="file" name="product_image" class="form-control" id="exampleInputEmail3">
-                                        <img src="{{URL::to('public/uploads/product/'.$edit->product_image)}}" height="100" width="100">
+                                        <img src="{{URL::to('uploads/product/'.$edit->product_image)}}" height="100" width="100">
 
                                         <input type="hidden" name="tenphoto" value="{{$edit->product_image}}" class="form-control">
                                     </div>

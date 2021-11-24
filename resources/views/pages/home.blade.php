@@ -9,7 +9,7 @@
 						<div class="col-md-4 product-men">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-								<img src="{{URL::to('public/uploads/product/'.$high->product_image)}}" alt="" width="160" height="150" />
+								<img src="{{URL::to('uploads/product/'.$high->product_image)}}" alt="" width="160" height="150" />
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
 											<a href="{{URL::TO('/Chi-Tiet-San-Pham/'.$high->product_id)}}" class="link-product-add-cart">Xem Ngay</a>
@@ -64,7 +64,7 @@
 						</div>
 					
 						<div class="col-xs-5 bg-right-nut">
-							<img src="{{('public/frontend/images/cay-canh1.png')}}" alt="" width="300px">
+							<img src="{{('frontend/images/cay-canh1.png')}}" alt="" width="300px">
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -76,7 +76,7 @@
 						<div class="col-md-4 product-men">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
-								<img src="{{URL::to('public/uploads/product/'.$new->product_image)}}" alt="" width="160" height="150" />
+								<img src="{{URL::to('uploads/product/'.$new->product_image)}}" alt="" width="160" height="150" />
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
 											<a href="{{URL::TO('/Chi-Tiet-San-Pham/'.$new->product_id)}}" class="link-product-add-cart">Xem Ngay</a>

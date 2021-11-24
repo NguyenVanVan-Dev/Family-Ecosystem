@@ -54,7 +54,7 @@
                         <td>{{ $user->admin_name }}</td>
                         <td>{{ $user->admin_phone }} </td>
                         <td  style="text-align: center;">
-                            <img src="{{URL::TO('/public/uploads/manage/'.$user->admin_image)}}" alt="" 
+                            <img src="{{URL::TO('/uploads/manage/'.$user->admin_image)}}" alt="" 
                             
                             height="100" width="100">
                         </td>
