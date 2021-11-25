@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+// Quản lí dự án tới đậy rồi nè theo Jira thì mới thể hiện được tới đây 23/11/2021
 Route::get('/', [HomeController::class,'index']);
 Route::get('/home',[HomeController::class,'index']);
 
@@ -40,15 +40,16 @@ Route::get('/Xoa-NguoiDung/{customer_id}',[AdminController::class,'Xoa_NguoiDung
 Route::get('/MoChan-NguoiDung/{customer_id}',[AdminController::class,'MoChan_NguoiDung']);
 Route::get('/DonHang-Day',[AdminController::class,'DonHang_Day']);
 //Danh Muc
-
+//  Quản lí dự án tới đậy rồi nè theo Jira thì mới thể hiện được tới đây 25/11/2021
 Route::get('/Them-Danh-Muc',[DanhMucController::class,'Them_Danh_Muc']);
-Route::get('/Liet-Ke-Danh-Muc',[DanhMucController::class,'Liet_Ke_Danh_Muc']);
 Route::post('/Luu-Danh-Muc',[DanhMucController::class,'Luu_Danh_Muc']);
-Route::get('/An-Danh-Muc/{category_id}',[DanhMucController::class,'An_Danh_Muc']);
-Route::get('/Hien-Danh-Muc/{category_id}',[DanhMucController::class,'Hien_Danh_Muc']);
+Route::get('/Liet-Ke-Danh-Muc',[DanhMucController::class,'Liet_Ke_Danh_Muc']);
 Route::get('/Sua-Danh-Muc/{category_id}',[DanhMucController::class,'Sua_Danh_Muc']);
 Route::post('/Cap-Nhat-Danh-Muc/{category_id}',[DanhMucController::class,'Cap_Nhat_Danh_Muc']);
+Route::get('/An-Danh-Muc/{category_id}',[DanhMucController::class,'An_Danh_Muc']);
+Route::get('/Hien-Danh-Muc/{category_id}',[DanhMucController::class,'Hien_Danh_Muc']);
 Route::get('/Xoa-Danh-Muc/{category_id}',[DanhMucController::class,'Xoa_Danh_Muc']);
+//  Quản lí dự án tới đậy rồi nè theo Jira thì mới thể hiện được tới đây 25/11/2021
 // Sản Phẩm
 Route::get('/Them-San-Pham',[SanPhamController::class,'Them_San_Pham']);
 Route::post('/Luu-San-Pham',[SanPhamController::class,'Luu_San_Pham']);
